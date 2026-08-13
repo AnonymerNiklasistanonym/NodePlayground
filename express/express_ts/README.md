@@ -60,3 +60,34 @@ To compile everything the `tsconfig.json` needs to have the following options:
   "include": ["src"]
 }
 ```
+
+## Vitest
+
+Basic structure:
+
+```
+The basic structure is:
+
+describe():           Groups related tests
+  └── it():           Defines an individual test
+        └── expect(): Defines assertion as part of a test
+```
+
+Its also possible to nest describe:
+
+```ts
+describe('login', () => {
+  beforeEach(() => {
+    // runs before every test in this describe and its nested describes
+  })
+  describe('with valid credentials', () => {
+    // ...
+  })
+  describe('with invalid credentials', () => {
+    // ...
+  })
+  describe('when the account is locked', () => {
+    // ...
+  })
+})
+```
