@@ -1,0 +1,11 @@
+{
+  "name": "node_parse_args",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "modern.js",
+  "scripts": {
+    "old": "node old.js",
+    "start": "node ."
+  }
+}
