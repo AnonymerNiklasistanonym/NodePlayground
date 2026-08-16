@@ -89,5 +89,8 @@ describe('login', () => {
   describe('when the account is locked', () => {
     // ...
   })
+  afterEach(() => {
+    // runs after every test in this describe and its nested describes
+  })
 })
 ```

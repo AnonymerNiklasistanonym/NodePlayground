@@ -1,0 +1,40 @@
+:root {
+  --font-family: Open Sans, Arial, Roboto, Noto Sans;
+  --font-size: 1rem;
+  --input-padding: 0.5rem;
+}
+
+#center {
+  text-align: center;
+  font-size: var(--font-size);
+  font-family: var(--font-family);
+
+  display: flex;
+  flex-direction: column;
+  gap: var(--clock-padding);
+  align-items: center;
+
+  padding-top: calc(var(--clock-font-size) * 3);
+  padding-bottom: calc(var(--clock-font-size) * 3);
+}
+
+#center li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--clock-padding);
+  padding: var(--clock-padding);
+}
+
+button,
+select,
+input[type="text"],
+input[type="email"],
+input[type="search"],
+input[type="number"] {
+  padding: var(--input-padding);
+}
+
+input[type="text"] {
+  min-width: 16rem;
+}
