@@ -1,0 +1,99 @@
+:root {
+  --clock-font: monospace;
+  --clock-font-size: 1.5rem;
+  --clock-border-radius: 1rem;
+  --clock-padding: 0.25em;
+  --clock-font-color: #fff;
+  --clock-bg-color: rgba(0, 0, 0, 0.75);
+}
+
+#clock-wrapper {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  display: flex;
+}
+
+#clock {
+  /* The size of all text inside */
+  font-size: var(--clock-font-size);
+  /* Make element only as big as its content */
+  display: inline-block;
+  font-family: var(--clock-font);
+  color: var(--clock-font-color);
+  border-radius: var(--clock-border-radius);
+  padding: var(--clock-padding);
+  background-color: var(--clock-bg-color);
+  /* Enable aligning it over the whole website */
+  position: absolute;
+}
+
+#clock-time,
+#clock-note,
+#clock-country {
+  padding: var(--clock-padding);
+}
+
+#clock-country > svg {
+  /* Make it as tall as the text */
+  height: 1em;
+  /* Correct the alignment (since e.g. 'g' goes below the base line) */
+  vertical-align: -0.125em;
+}
+
+/* Horizontal */
+#clock.left {
+  left: 0;
+}
+
+#clock.center {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#clock.right {
+  right: 0;
+}
+
+/* Vertical */
+#clock.top {
+  top: 0;
+}
+
+#clock.bottom {
+  bottom: 0;
+}
+
+#clock.left.bottom {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+#clock.right.bottom {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+#clock.center.bottom {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+#clock.left.top {
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+#clock.right.top {
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+#clock.center.top {
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}

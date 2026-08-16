@@ -1,0 +1,21 @@
+{
+  "pageTitle": "OBS Overlay Clock",
+  "positionVertical": "Vertical position",
+  "positionHorizontal": "Horizontal position",
+  "left": "Left",
+  "center": "Center",
+  "right": "Right",
+  "top": "Top",
+  "bottom": "Down",
+  "none": "None",
+  "set-language": "Language",
+  "set-time": "Time format",
+  "set-country": "Country flag",
+  "set-position": "Position",
+  "set-font-size": "Font size",
+  "set-note": "Note",
+  "copy-url": "Copy URL",
+  "view-result": "View result (or press key E)",
+  "timeStringFormatDocumentation": "Time format documentation",
+  "reset": "Reset"
+}

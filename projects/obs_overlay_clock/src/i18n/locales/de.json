@@ -1,0 +1,21 @@
+{
+  "pageTitle": "OBS Overlay Uhr",
+  "positionVertical": "Vertikale Position",
+  "positionHorizontal": "Horizontale Position",
+  "left": "Links",
+  "center": "Zentriert",
+  "right": "Rechts",
+  "top": "Oben",
+  "bottom": "Unten",
+  "none": "Keine",
+  "set-language": "Sprache",
+  "set-time": "Zeitformat",
+  "set-country": "Flagge",
+  "set-position": "Position",
+  "set-font-size": "Schriftgröße",
+  "set-note": "Notiz",
+  "copy-url": "URL kopieren",
+  "view-result": "Ergebnis anschauen (oder Taste E drücken)",
+  "timeStringFormatDocumentation": "Zeit String Formatierungsdokumentation",
+  "reset": "Zurücksetzten"
+}

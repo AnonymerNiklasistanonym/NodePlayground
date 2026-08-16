@@ -1,0 +1,33 @@
+{
+  "name": "obs-overlay-music-linux",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint",
+    "format": "oxfmt",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "country-flag-icons": "^1.6.20",
+    "date-fns": "^4.4.0",
+    "i18next": "^26.3.6",
+    "oxfmt": "^0.63.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "react-i18next": "^17.0.11",
+    "react-router-dom": "^7.18.2",
+    "zustand": "^5.0.15"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
+    "@vitejs/plugin-react": "^6.0.5",
+    "oxlint": "^1.78.0",
+    "typescript": "~7.0.2",
+    "vite": "^8.2.1"
+  }
+}
