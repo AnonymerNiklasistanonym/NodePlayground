@@ -1,0 +1,29 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "create:types": "tsx --tsconfig scripts/tsconfig.scripts.json scripts/json_schema_to_ts.ts",
+    "build": "tsc",
+    "start": "node .",
+    "lint:check": "oxlint",
+    "lint": "oxlint --fix",
+    "format": "oxfmt"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "file-type": "^22.0.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.4.0",
+    "json-schema-to-typescript": "^16.0.0",
+    "oxfmt": "^0.65.0",
+    "oxlint": "^1.80.0",
+    "tsx": "^4.23.12",
+    "typescript": "^7.0.2"
+  }
+}
